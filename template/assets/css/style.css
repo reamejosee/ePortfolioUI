@@ -7658,11 +7658,7 @@ select {
 select {
   word-wrap: normal; }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
+
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -7710,9 +7706,6 @@ progress {
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
-[type="search"] {
-  outline-offset: -2px;
-  -webkit-appearance: none; }
 
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -10747,8 +10740,7 @@ input[type="button"].btn-block {
   z-index: 1;
   display: block;
   min-height: 1.5rem;
-  padding-left: 1.5rem;
-  color-adjust: exact; }
+  padding-left: 1.5rem; }
 
 .custom-control-inline {
   display: inline-flex;
@@ -15378,9 +15370,6 @@ body {
 .tt-hint, .form-control:focus, .asColorPicker-input:focus, .dataTables_wrapper select:focus, .jsgrid .jsgrid-table .jsgrid-filter-row input:focus[type=text],
 .jsgrid .jsgrid-table .jsgrid-filter-row select:focus, .jsgrid .jsgrid-table .jsgrid-filter-row input:focus[type=number], .select2-container--default .select2-selection--single:focus, .select2-container--default .select2-selection--single .select2-search__field:focus, .typeahead:focus,
 .tt-query:focus,
-.tt-hint:focus {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none; }
 
 .form-control, .asColorPicker-input, .dataTables_wrapper select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text],
 .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single .select2-search__field, .typeahead,
@@ -18565,7 +18554,6 @@ body.avgrund-active {
             border-radius: 100%;
             display: block;
             margin: auto;
-            vertical-align: middle;
             position: absolute;
             top: 1px;
             z-index: -1;
@@ -18586,7 +18574,6 @@ body.avgrund-active {
             border-radius: 100%;
             display: block;
             margin: auto;
-            vertical-align: middle;
             position: absolute;
             top: 1px;
             z-index: -1;
@@ -18610,7 +18597,6 @@ body.avgrund-active {
           border-radius: 4px;
           display: block;
           margin: auto;
-          vertical-align: middle;
           position: absolute;
           top: 6px;
           z-index: -1;
@@ -18629,7 +18615,6 @@ body.avgrund-active {
           border-radius: 4px;
           display: block;
           margin: auto;
-          vertical-align: middle;
           position: absolute;
           top: 6px;
           z-index: -1;
@@ -19878,8 +19863,7 @@ div.tagsinput {
   color: white;
   background: rgba(0, 0, 0, 0.8);
   width: 100px;
-  margin-left: -50px;
-  -webkit-transition: 0.1s left, 0.1s top; }
+  margin-left: -50px; }
 
 .wysi-editor .wrap {
   max-width: 700px;
